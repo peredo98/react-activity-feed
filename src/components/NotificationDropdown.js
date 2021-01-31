@@ -179,7 +179,7 @@ class NotificationDropdownInner extends React.Component<PropsInner, State> {
     return (
       <div style={{ position: 'relative', display: 'inline-block' }}>
         <IconBadge
-          unseen={this.props.unseen}
+          unseen={this.props.unread}
           onClick={this.openDropdown}
           showNumber={true}
           hidden={!this.props.notify}
